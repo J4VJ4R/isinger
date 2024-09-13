@@ -1,0 +1,63 @@
+<section class="container p-5" id="portfoliowebapps">
+  <h2 class="text-center">{{messages['message5']}}</h2>
+  <hr class="mb-5" />
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- Proyecto 1 -->
+    <div class="col">
+      <div class="card">
+        <img
+          src="{{url_for('static', filename = 'img/todo-list-'~lang~'.png')}}"
+          alt="Imagen del proyecto todo list"
+          class="d-block mx-lg-auto img-fluid"
+        />
+        <!-- to do list -->
+        <div class="card-body">
+          <h5 class="card-title">{{messages['todo_title']}}</h5>
+          <p class="card-text">
+            {{messages['todo_text1']}}
+             <span class="fw-bold">{{messages['todo_text2']}}</span>{{messages['todo_text3']}} 🎨💻📊.
+          </p>
+          <a href="https://todolist.spacecode.com.co/" target="_blank" class="nav-link text-primary">{{messages['link_here']}}</a>
+        </div>
+      </div>
+    </div>
+    <!-- proyecto 2 -->
+    <div class="col">
+      <div class="card">
+        <img
+          src="{{url_for('static', filename = 'img/blog-post-'~lang~'.png')}}"
+          alt="Imagen del proyecto blog posts"
+          class="d-block mx-lg-auto img-fluid"
+        />
+        <!-- blogposts -->
+        <div class="card-body">
+          <h5 class="card-title">{{messages['blog_title']}}</h5>
+          <p class="card-text">
+            {{messages['blog_text1']}}<span class="fw-bold">{{messages['blog_text2']}}</span>
+            {{messages['blog_text3']}} 🖋️💻📚.
+          </p>
+          <a href="https://blogposts.spacecode.com.co/" target="_blank" class="nav-link text-primary">{{messages['link_here']}}</a>
+        </div>
+      </div>
+    </div>
+    <!-- proyecto 3 -->
+    <div class="col">
+      <div class="card">
+        <img
+          src="{{url_for('static', filename = 'img/api-contact.png')}}"
+          alt="Imagen del proyecto todo list"
+          class="d-block mx-lg-auto img-fluid"
+        />
+        <!-- API-REST -->
+        <div class="card-body">
+          <h5 class="card-title">{{messages['api_title']}}</h5>
+          <p class="card-text">
+            {{messages['api_text1']}}<span class="fw-bold">{{messages['api_text2']}}</span>
+            {{messages['api_text3']}} 🌐🔗💻.
+          </p>
+          <a href="https://apirest.spacecode.com.co/contacts" target="_blank"  class="nav-link text-primary">{{messages['link_here']}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

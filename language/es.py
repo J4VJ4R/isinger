@@ -7,13 +7,15 @@ messages = {
   'language': 'Lenguaje',
   'spanish': 'Español',
   'english': 'Inglés',
-  'contacts': 'Contactos',
+  'contacts': 'CONTÁCTAME',
   'webpages': 'Paginas Web',
   'landging': 'Landing Pages',
   'webapps': 'Aplicaciones Web',
   'mobileapp': 'Aplicaciones Móviles',
-  'weare': 'Somos',
-  'message1': 'Desarrollo de software a medida',
+  'weare': 'El placer de la música',
+  'message1': '''DJ Zambua es uno de los mejores DJ de Europa, por eso
+estamos encantados de invitarlos a todos a nuestro club para bailar
+con la mejor música.''',
   'message2': 'En este sitio encontraras nuestros proyectos y servicios recientes. !Gracias por vistarnos¡',
   'btn1': 'Contáctanos',
   'message3': 'Proyectos de Páginas Web',

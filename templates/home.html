@@ -1,16 +1,17 @@
-<section class="bg-light" id="home">
+<section class="bg-white" id="home">
   <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="{{url_for('static', filename = 'img/web.jpg')}}" class="d-block mx-lg-auto img-fluid"
+    <div class=" row flex-lg-row-reverse justify-content-between g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-7 ">
+        <img src="{{url_for('static', filename = 'img/web.png')}}" class="d-block mx-lg-auto img-fluid"
         height="500" loading="lazy" alt="web img">
       </div>
-      <div class="col-lg-6">
-        <h2 class="display-4">{{messages['weare']}} <span class="">SPACECODE</span></h2>
-        <p class="lead fs-3">{{messages['message1']}}</p>
-        <hr class="my-4">
-        <p class="fs-5">{{messages['message2']}}</p>
-        <a href="#contact" class="btn btn-primary btn-lg" role="button">{{messages['btn1']}}</a>
+      <div class="col-lg-4">
+        <h2 class="display-5 home-weare">{{messages['weare']}}</h2>
+        <p class="lead">{{messages['message1']}}</p>
+        <div class="d-flex btn-primary__contact">
+          <a href="#contact" class="btn btn-primary btn-primary__contact1 btn-lg" role="button">{{messages['contacts']}}</a>
+          <a href="#contact" class="btn btn-primary btn-primary__contact2 btn-lg" role="button">></a>
+        </div>
       </div>
     </div>
   </div>

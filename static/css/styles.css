@@ -159,6 +159,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Black.woff2') format('woff2'),
+      url('../fonts/Rubik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -207,9 +215,47 @@ body{
   list-style-type: none;
 }
 .navbar-brand__bar{
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #B48FDB;
 }
 .navbar-brand__logo{
   color: #362A43;
+  font-size: 1.5rem;
+}
+.home-weare{
+  font-family: 'Rubik', sans-serif;
+  font-size: 4.5rem;
+  color: #362A43;
+}
+@media (max-width: 390px){
+  .home-weare{
+    font-size: 2.8rem;
+  }
+}
+.lead{
+  font-size: 1rem;
+}
+.btn-primary__contact{
+  position: relative;
+}
+.btn-primary__contact1{
+  border: none;
+  background-color: #B48FDB;
+  padding-right: 34px;
+}
+.btn-primary__contact2{
+  position: relative;
+  right: 20px;
+  background-color: #FFB3C9;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.063rem;
+  font-family: 'Poppins';
+}
+.btn-primary__contact1:hover{
+  background-color: #af81e0;
+}
+.btn-primary__contact2:hover{
+  background-color: #fba7bf;
 }

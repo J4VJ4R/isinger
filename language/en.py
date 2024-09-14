@@ -7,13 +7,15 @@ messages = {
   'language': 'Language',
   'spanish': 'Spanish',
   'english': 'English',
-  'contacts': 'Contacts',
+  'contacts': 'CONTACT ME',
   'webpages': 'Web Pages',
   'landging': 'Landing Pages',
   'webapps': 'Web Applications',
   'mobileapp': 'Mobile Applications',
-  'weare': 'We are',
-  'message1': 'Custom software development',
+  'weare': 'The Pleasures of Music',
+  'message1': '''DJ Zambua is one of the best DJ.s from Europe, so
+               we are glad to invite you all into our club to dance
+                 on the best music''',
   'message2': 'On this site, you will find our latest projects and services. Thank you for visiting!',
   'btn1': 'Contact Us',
   'message3': 'Web Page Projects',

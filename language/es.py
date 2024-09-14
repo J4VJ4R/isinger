@@ -18,7 +18,7 @@ estamos encantados de invitarlos a todos a nuestro club para bailar
 con la mejor música.''',
   'message2': 'En este sitio encontraras nuestros proyectos y servicios recientes. !Gracias por vistarnos¡',
   'btn1': 'Contáctanos',
-  'message3': 'Proyectos de Páginas Web',
+  'message3': 'Último lanzamiento',
   'message4': 'Proyectos Landing Page',
   'message5': 'Proyectos de Aplicaciones Web',
   'todo_title': 'Lista de tareas con - Flask',
@@ -69,6 +69,9 @@ con la mejor música.''',
   'footer_rights': '© 2024, todos los derechos reservados.',
   'footer_text1': '''Creado con pasión ❤️ por SPACECODE para quienes piensan diferente 💡 
           y buscan la
-          belleza en la innovación ✨'''
+          belleza en la innovación ✨''',
+  'latest_message1': '''Así que estamos encantados de invitarlos a 
+  todos a nuestro club para bailar con la mejor música y el mejor 
+  ruido de todos los tiempos.''',
 
 }

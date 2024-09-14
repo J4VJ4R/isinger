@@ -1,76 +1,86 @@
-<section class="container p-5" id="portfolioweb">
-  <h2 class="text-center">{{messages['message3']}}</h2>
-  <hr class="mb-5" />
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <!-- Proyecto 1 -->
-    <!-- <div class="col">
-      <div class="card">
-        <img
-          src="{{url_for('static', filename = 'img/todo-list.png')}}"
-          alt="Imagen del proyecto todo list"
-          class="d-block mx-lg-auto img-fluid"
-        /> -->
-        <!-- to do list -->
-        <!-- <div class="card-body">
-          <h5 class="card-title">Lista de tareas con - Flask</h5>
-          <p class="card-text">
-            Este proyecto, un sistema de gestión de tareas desarrollado con
-             <span class="fw-bold">Python, Flask, Sqlite, Bootstrap, CSS y HTML5</span> , es una obra que une
-            ciencia y arte para ordenar el caos cotidiano. Con pasión y
-            precisión, hemos creado una herramienta funcional y bella que eleva
-            la eficiencia humana, permitiendo que la tecnología y la estética
-            coexistan en armonía 🎨💻📊.
-          </p>
-          <a href="https://todolist.spacecode.com.co/" target="_blank" class="nav-link text-primary">Link aquí.</a>
+<section class="container pt-0 px-2" id="portfolioweb">
+  <h2 class="left-center latest-text">{{messages['message3']}}</h2>
+  <p class="latest-text__p col-md-6">{{messages['latest_message']}}</p>
+  <div id="cardSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#cardSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#cardSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/vintage.png')}}" width="300" height="250" class="card-img-top" alt="Card 1">
+              <div class="card-body">
+                <h5 class="card-title">Card 1</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/party.png')}}" width="300" height="250" class="card-img-top" alt="Card 2">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/alone.png')}}" width="300" height="250" class="card-img-top" alt="Card 3">
+              <div class="card-body">
+                <h5 class="card-title">Card 3</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div> -->
-    <!-- proyecto 2 -->
-    <!-- <div class="col">
-      <div class="card">
-        <img
-          src="{{url_for('static', filename = 'img/blog-post.png')}}"
-          alt="Imagen del proyecto todo list"
-          class="d-block mx-lg-auto img-fluid"
-        /> -->
-        <!-- blogposts -->
-        <!-- <div class="card-body">
-          <h5 class="card-title">BlogPosts con - Flask</h5>
-          <p class="card-text">
-            Este proyecto de blog-posts, construido con <span class="fw-bold"> Python, Flask,
-              PostgreSQL, Bootstrap, CSS y HTML5,</span> es una plataforma donde la
-            creatividad y la tecnología se entrelazan para dar voz a las ideas.
-            Con un diseño elegante y funcional, permite a los usuarios compartir
-            pensamientos y contenido de manera fluida, mientras que la pasión y
-            el ingenio subyacen en cada línea de código 🖋️💻📚.
-          </p>
-          <a href="https://blogposts.spacecode.com.co/" target="_blank" class="nav-link text-primary">Link aquí.</a>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/alone.png')}}" width="300" height="250" class="card-img-top" alt="Card 4">
+              <div class="card-body">
+                <h5 class="card-title">Card 4</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/alone.png')}}" width="300" height="250" class="card-img-top" alt="Card 5">
+              <div class="card-body">
+                <h5 class="card-title">Card 5</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="{{url_for('static', filename = 'img/carousel/alone.png')}}" width="300" height="250"" class="card-img-top" alt="Card 6">
+              <div class="card-body">
+                <h5 class="card-title">Card 6</h5>
+                <p class="card-text">Some quick example text to build on the card title.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div> -->
-    <!-- proyecto 3 -->
-    <!-- <div class="col">
-      <div class="card">
-        <img
-          src="{{url_for('static', filename = 'img/api-contact.png')}}"
-          alt="Imagen del proyecto todo list"
-          class="d-block mx-lg-auto img-fluid"
-        /> -->
-        <!-- API-REST -->
-        <!-- <div class="card-body">
-          <h5 class="card-title">API-REST con - Flask</h5>
-          <p class="card-text">
-            Este proyecto de API-REST, creado con  <span class="fw-bold">  Python, Flask, y Sqlite, </span> es
-            una pieza de ingeniería digital que permite la comunicación
-            eficiente entre sistemas. Con una estructura robusta y bien
-            definida, facilita el intercambio de datos de manera segura y
-            rápida, reflejando la unión perfecta entre funcionalidad y precisión
-            técnica. Cada endpoint es un canal abierto que conecta y fortalece
-            la interacción entre aplicaciones 🌐🔗💻.
-          </p>
-          <a href="https://apirest.spacecode.com.co/contacts" target="_blank"  class="nav-link text-primary">Link aquí.</a>
-        </div> -->
-      <!-- </div> -->
-    <!-- </div> -->
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#cardSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cardSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </section>

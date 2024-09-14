@@ -18,7 +18,7 @@ messages = {
                  on the best music''',
   'message2': 'On this site, you will find our latest projects and services. Thank you for visiting!',
   'btn1': 'Contact Us',
-  'message3': 'Web Page Projects',
+  'message3': 'Latest Release',
   'message4': 'Landing Page Projects',
   'message5': 'Web Application Projects',
   'todo_title': 'Task List with Flask',
@@ -61,6 +61,8 @@ messages = {
   'footer_subtitle1': 'SOCIAL MEDIA',
   'footer_rights': '©️ 2024, all rights reserved.',
   'footer_text1': '''Created with passion ❤️ by SPACECODE for those who think
-    differently 💡 and seek beauty in innovation ✨'''
+    differently 💡 and seek beauty in innovation ✨''',
+  'latest_message': '''So we are glad to invite you all into our 
+  club to dance on the best music to all time best noise..''',
   
 }

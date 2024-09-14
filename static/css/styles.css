@@ -259,3 +259,15 @@ body{
 .btn-primary__contact2:hover{
   background-color: #fba7bf;
 }
+/* latest releases */
+.latest-text{
+  font-family: 'Rubik';
+  font-weight: bold;
+  font-size: 3rem;
+  color: #362A43;
+}
+.latest-text__p{
+  font-size: 1rem;
+  color: #464646;
+  font-weight: normal;
+}

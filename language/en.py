@@ -1,6 +1,8 @@
 messages = {
   'home': 'Home',
   'about': 'About',
+  'aboutme': 'About Me',
+  'knowmore': 'Know More',
   'music': 'Músic',
   'projects': 'Projects',
   'album': 'Album',
@@ -16,6 +18,20 @@ messages = {
   'message1': '''DJ Zambua is one of the best DJ.s from Europe, so
                we are glad to invite you all into our club to dance
                  on the best music''',
+  'aboutmessage1': '''
+      iriure scripserit vix, vis id modo soluta. Meis utinam quo
+      at, esse aeterno adversarium ei has, ad nec utinam putent.
+  ''',
+  'aboutmessage2': '''
+  Hinc noluisse consequat te mel, corrumpit laboramus at eos. Ne
+  pri essent aliquid voluptatum, et duo equidem vivendum ad dicam
+  noster quo, per cu solet appareat convenire.
+  ''',
+   'aboutmessage3': '''
+        Ius ex idque audiam vivendum, dicunt corpora id has.
+        Liber quidam pertinax te mea. Cu esse alterum dolores
+        vix, cibo quas deserunt nam eu, graeco evertitur per ut.
+  ''',
   'message2': 'On this site, you will find our latest projects and services. Thank you for visiting!',
   'btn1': 'Contact Us',
   'message3': 'Latest Release',

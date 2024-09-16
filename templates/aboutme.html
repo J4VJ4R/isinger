@@ -1,0 +1,20 @@
+<section class="bg-white" id="home">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class=" row justify-content-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-7 ">
+        <img src="{{url_for('static', filename = 'img/aboutme.png')}}" class="d-block mx-lg-auto img-fluid"
+        height="500" loading="lazy" alt="web img">
+      </div>
+      <div class="col-lg-4 d-flex flex-column justify-content-center align-items-right">
+        <h2 class="display-5 aboutme">{{messages['aboutme']}}</h2>
+        <p class="lead aboutme-p">{{messages['aboutmessage1']}}</p>
+        <p class="lead aboutme-p">{{messages['aboutmessage2']}}</p>
+        <p class="lead aboutme-p">{{messages['aboutmessage3']}}</p>
+        <div class="d-flex btn-primary__contact">
+          <a href="#contact" class="btn btn-primary btn-primary__contact1 btn-lg" role="button">{{messages['knowmore']}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

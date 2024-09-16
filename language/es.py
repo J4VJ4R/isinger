@@ -1,6 +1,8 @@
 messages = {
   'home': 'Inicio',
   'about': 'Acerca de',
+  'aboutme': 'Acerca de mi',
+  'knowmore': 'Saber Más',
   'music': 'Musica',
   'project': 'Proyectos',
   'album': 'Album',
@@ -14,8 +16,23 @@ messages = {
   'mobileapp': 'Aplicaciones Móviles',
   'weare': 'El placer de la música',
   'message1': '''DJ Zambua es uno de los mejores DJ de Europa, por eso
-estamos encantados de invitarlos a todos a nuestro club para bailar
-con la mejor música.''',
+        estamos encantados de invitarlos a todos a nuestro club para bailar
+        con la mejor música.''',
+  'aboutmessage1': '''
+        Así que estamos encantados de invitarlos a todos a nuestro
+        club para bailar con la mejor música y el mejor ruido de
+        todos los tiempos.
+        ''',
+  'aboutmessage2': '''
+  Hinc noluisse consequat te mel, corrumpit laboramus at eos. Ne
+  pri essent aliquid voluptatum, et duo equidem vivendum ad dicam
+  noster quo, per cu solet appareat convenire.
+  ''',
+  'aboutmessage3': '''
+        Ius ex idque audiam vivendum, dicunt corpora id has.
+        Liber quidam pertinax te mea. Cu esse alterum dolores
+        vix, cibo quas deserunt nam eu, graeco evertitur per ut.
+  ''',
   'message2': 'En este sitio encontraras nuestros proyectos y servicios recientes. !Gracias por vistarnos¡',
   'btn1': 'Contáctanos',
   'message3': 'Último lanzamiento',

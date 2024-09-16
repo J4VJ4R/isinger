@@ -271,3 +271,14 @@ body{
   color: #464646;
   font-weight: normal;
 }
+.aboutme{
+  font-family: 'Rubik';
+  font-size: 3rem;
+  color: #362A43;
+}
+.aboutme-p{
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 26px;
+}

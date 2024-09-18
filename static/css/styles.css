@@ -167,6 +167,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff') format('woff2'),
+      url('../fonts/Rubik-Medium.woff2') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -281,4 +289,24 @@ body{
   font-weight: normal;
   font-size: 1rem;
   line-height: 26px;
+  color: #464646;
+}
+/* upcoming shows */
+.upcomingtitle{
+  font-family: 'Rubik';
+  font-size: 1.75rem;
+  color: #362A43;
+  font-weight: normal;
+}
+.btn-info-t{
+  background-color: #B48FDB;
+}
+.btn-info-t:hover{
+  background-color: #9d71cc;
+}
+.btn-info-r{
+  background-color: #84DCE3;
+}
+.btn-info-r:hover{
+  background-color: #68c9d0;
 }

@@ -80,5 +80,14 @@ messages = {
     differently 💡 and seek beauty in innovation ✨''',
   'latest_message': '''So we are glad to invite you all into our 
   club to dance on the best music to all time best noise..''',
-  
+  'latest_message1': '''So we are glad to invite you all into our
+    club to dance on the best music to all time best noise..''',
+  'upcomingtitle': 'Upcoming Shows',
+  'upcomingmessage1': 'Generations on the Internet',
+  'date': 'Date',
+  'location': 'Location',
+  'time': 'Time',
+  'ticket': 'Ticket',
+
+   
 }

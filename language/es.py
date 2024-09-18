@@ -90,5 +90,10 @@ messages = {
   'latest_message1': '''Así que estamos encantados de invitarlos a 
   todos a nuestro club para bailar con la mejor música y el mejor 
   ruido de todos los tiempos.''',
+  'upcomingtitle': 'Próximos Shows',
+  'date': 'Fecha',
+  'location': 'Lugar',
+  'time': 'Hora',
+  'ticket': 'Ticket',
 
 }

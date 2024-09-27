@@ -88,6 +88,8 @@ messages = {
   'location': 'Location',
   'time': 'Time',
   'ticket': 'Ticket',
+  'latestvideos': 'Latest Videos',
+  'lvideos_message1': 'Best of Music Industry otro texto adicional',
 
    
 }

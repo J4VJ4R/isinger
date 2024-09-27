@@ -95,5 +95,8 @@ messages = {
   'location': 'Lugar',
   'time': 'Hora',
   'ticket': 'Ticket',
+  'latestvideos': 'Últimos videos',
+  'lvideos_message1': 'Lo mejor de la industria musical',
+
 
 }

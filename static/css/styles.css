@@ -239,6 +239,17 @@ body{
   .home-weare{
     font-size: 2.8rem;
   }
+  .latest-videos-text{
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 2rem;
+
+  }
+  .upcoming-text{
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 2rem; 
+  }
 }
 .lead{
   font-size: 1rem;
@@ -294,7 +305,7 @@ body{
 /* upcoming shows */
 .upcomingtitle{
   font-family: 'Rubik';
-  font-size: 1.75rem;
+  font-size: 1.375rem;
   color: #362A43;
   font-weight: normal;
 }
@@ -309,4 +320,8 @@ body{
 }
 .btn-info-r:hover{
   background-color: #68c9d0;
+}
+/* latest videos */
+@media screen {
+  
 }
